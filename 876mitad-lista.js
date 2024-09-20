@@ -35,7 +35,7 @@
 }; */
 
 
-//Se creo esta clase para representar la lista que me psaba como parmetro en la pagina
+//Se creo esta clase para representar la lista que me pasaba como parmetro en la pagina
 class Node {
     constructor(value, next = null) {
         this.value = value;
