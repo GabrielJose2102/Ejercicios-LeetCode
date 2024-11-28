@@ -10,7 +10,7 @@ console.log(645 % 10);
 
  */
 
-const array = "Arepa";
+//const array = "Arepa";
 
 /* const arregloI = (arr)=> {
     let resultado;
@@ -80,7 +80,8 @@ for (let j = 0; j < magazine.length; j++) {
   console.log(str, str.hashCode());
   console.log(str2, str2.hashCode()); */
 
-/* var canConstruct = function (ransomNote, magazine) {
+  //mi solucion
+var canConstruct = function (ransomNote, magazine) {
   let magazineArr = [];
   let detener = false;
   for (let i = 0; i < magazine.length; i++) {
@@ -105,9 +106,11 @@ for (let j = 0; j < magazine.length; j++) {
   }
 
   return true;
-}; */
+};
 
-/* var canConstruct = function (ransomNote, magazine) {
+
+//Solucion mas optima
+var canConstruct = function (ransomNote, magazine) {
   for (const char of magazine) {
     ransomNote = ransomNote.replace(char, "");
     console.log(ransomNote)
@@ -117,11 +120,5 @@ for (let j = 0; j < magazine.length; j++) {
   else return false;
 };
 
-console.log(canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi")); */
+console.log(canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"));
 
-const arra = 'ac';
-
-let pregunta = arra.replace('ab', "");
-
-console.log(arra);
-console.log(!pregunta);
